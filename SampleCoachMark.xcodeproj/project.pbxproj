@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0EBB9E2B258F39A100AAAF04 /* SampleTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EBB9E2B258F39A100AAAF04 /* SampleCoachMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleCoachMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EBB9E2E258F39A100AAAF04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EBB9E30258F39A100AAAF04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0EBB9E32258F39A100AAAF04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		0EBB9E22258F39A100AAAF04 = {
 			isa = PBXGroup;
 			children = (
-				0EBB9E2D258F39A100AAAF04 /* SampleTabbar */,
+				0EBB9E2D258F39A100AAAF04 /* SampleCoachMark */,
 				0EBB9E2C258F39A100AAAF04 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		0EBB9E2C258F39A100AAAF04 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0EBB9E2B258F39A100AAAF04 /* SampleTabbar.app */,
+				0EBB9E2B258F39A100AAAF04 /* SampleCoachMark.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0EBB9E2D258F39A100AAAF04 /* SampleTabbar */ = {
+		0EBB9E2D258F39A100AAAF04 /* SampleCoachMark */ = {
 			isa = PBXGroup;
 			children = (
 				0EBB9E2E258F39A100AAAF04 /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				0EBB9E39258F39A200AAAF04 /* LaunchScreen.storyboard */,
 				0EBB9E3C258F39A200AAAF04 /* Info.plist */,
 			);
-			path = SampleTabbar;
+			path = SampleCoachMark;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0EBB9E2A258F39A100AAAF04 /* SampleTabbar */ = {
+		0EBB9E2A258F39A100AAAF04 /* SampleCoachMark */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0EBB9E3F258F39A200AAAF04 /* Build configuration list for PBXNativeTarget "SampleTabbar" */;
+			buildConfigurationList = 0EBB9E3F258F39A200AAAF04 /* Build configuration list for PBXNativeTarget "SampleCoachMark" */;
 			buildPhases = (
 				0EBB9E27258F39A100AAAF04 /* Sources */,
 				0EBB9E28258F39A100AAAF04 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = SampleTabbar;
+			name = SampleCoachMark;
 			productName = SampleTabbar;
-			productReference = 0EBB9E2B258F39A100AAAF04 /* SampleTabbar.app */;
+			productReference = 0EBB9E2B258F39A100AAAF04 /* SampleCoachMark.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0EBB9E26258F39A100AAAF04 /* Build configuration list for PBXProject "SampleTabbar" */;
+			buildConfigurationList = 0EBB9E26258F39A100AAAF04 /* Build configuration list for PBXProject "SampleCoachMark" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0EBB9E2A258F39A100AAAF04 /* SampleTabbar */,
+				0EBB9E2A258F39A100AAAF04 /* SampleCoachMark */,
 			);
 		};
 /* End PBXProject section */
@@ -291,13 +291,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SampleTabbar/Info.plist;
+				INFOPLIST_FILE = SampleCoachMark/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.matsuda.SampleTabbar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.matsuda.CoachMark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,13 +310,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SampleTabbar/Info.plist;
+				INFOPLIST_FILE = SampleCoachMark/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.matsuda.SampleTabbar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.matsuda.CoachMark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0EBB9E26258F39A100AAAF04 /* Build configuration list for PBXProject "SampleTabbar" */ = {
+		0EBB9E26258F39A100AAAF04 /* Build configuration list for PBXProject "SampleCoachMark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0EBB9E3D258F39A200AAAF04 /* Debug */,
@@ -335,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0EBB9E3F258F39A200AAAF04 /* Build configuration list for PBXNativeTarget "SampleTabbar" */ = {
+		0EBB9E3F258F39A200AAAF04 /* Build configuration list for PBXNativeTarget "SampleCoachMark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0EBB9E40258F39A200AAAF04 /* Debug */,
