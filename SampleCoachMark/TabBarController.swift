@@ -29,16 +29,26 @@ class TabBarController: UITabBarController {
             print("window", (scene.delegate as! SceneDelegate).window?.frame as Any)
         }
         print("tabBar >>>", tabBar.frame)
-        coach(at: 2)
+        coach(at: 4)
     }
 }
 
 extension TabBarController {
     func addVCs() {
-        let vcs: [UIViewController] = (0..<4).map { i in
+        let vcs: [UIViewController] = (0..<5).map { i in
             let vc = UIViewController()
             vc.view.backgroundColor = .white
-            vc.tabBarItem = UITabBarItem(title: "\(i)", image: nil, selectedImage: nil)
+            let tab: (title: String, image: String) = {
+                switch i {
+                case 0: return ("house", "house")
+                case 1: return ("search", "magnifyingglass.circle")
+                case 2: return ("edit", "square.and.pencil")
+                case 3: return ("bookmark", "bookmark.circle")
+                case 4: return ("trash", "trash")
+                default: fatalError()
+                }
+            }()
+            vc.tabBarItem = UITabBarItem(title: tab.title, image: UIImage(systemName: tab.image), selectedImage: nil)
             return vc
         }
         setViewControllers(vcs, animated: false)
